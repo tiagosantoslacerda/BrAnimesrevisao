@@ -55,3 +55,183 @@ header nav a:hover {
     background-color: rgb(70, 99, 153);
     color: #000
 }
+
+footer {
+    background-color: #000000;
+    color:#ffffff;
+    text-align: center;
+    padding: 20px;
+} 
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+footer nav a:hover{
+    color: #1a3c86; 
+    text-decoration: underline overline;
+}
+
+main {
+    width: 960px;
+    margin:auto;
+    min-height: 600px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.texto_baner {
+    font-size: 30pt;
+    text-align: center;
+    margin: 20px 0px
+
+}
+
+#assistir, #assinar {
+    text-decoration: none;
+    width: 300px;
+    height: 50px;
+    display: block;
+    color: #ffffff;
+    font-size: 18pt;
+    margin: auto;
+    line-height: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #1b1a1a;
+
+}
+    
+#assistir {
+    background-color: #a012cc;
+}
+
+#assinar {
+    background-color: #56b61f;
+}
+
+.destaque {
+    background-color: #97cece;
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(13, 13, 14, 0.89);
+}
+
+.destaque section {
+    display: flex;
+}
+
+.destaque figure img {
+    width: 150px;
+}
+
+.programacao {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.programacao h3 {
+    width:100%
+}
+
+.programacao article img {
+    width: 150px;
+}
+
+.programacao article {
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px;
+    }
+
+    .programacao article section {
+        padding: 30px;
+    }
+
+    #destaque_plus {
+        display: flex;
+    }
+
+    #destaque_plus p {
+        text-align: center;
+
+    }
+
+    .planos {
+        width: 300px;
+        text-align: center;
+        margin: 20px auto;
+        border-radius: 50px;
+        padding: 50px;
+        border: 2px solid #2faa24;
+        font-size: 15pt;
+    }
+
+    .planos ul {
+        text-align: left;
+    }
+
+    .planos {
+        text-align: left;
+    }
+
+    .planos p {
+        font-size: 22pt;
+        text-align: center;
+        
+    }
+
+    .planos p span {
+        color: #e91010;
+    }
+
+    #assinar {
+        text-align: center;
+    }
+
+    #galeria {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #galeria img {
+        width: 200px;
+        margin: 10px 8px;
+    }
+
+    #contato {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    input, textarea {
+        display: block;
+        width: 300px;
+        background-color: #cccccc;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+
+    }
+
+    #contato button {
+        font-size: 18pt;
+        width: 100%;
+        height: 50px;
+        background-color: #e0d318;
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+    }
